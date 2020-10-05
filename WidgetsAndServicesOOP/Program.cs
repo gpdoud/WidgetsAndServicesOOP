@@ -1,11 +1,14 @@
 ﻿using CSharp.OOP;
 using CSharp.OOP.Inheritance;
-
+//using CSharp.OOP.Composition;
 using System;
 
 namespace WidgetsAndServicesOOP {
     class Program {
         static void Main(string[] args) {
+
+            var widget = new CSharp.OOP.Composition.Widget();
+            widget.Id = 1;
 
             var products = new Product[] {
                 new Widget() { Id = 1, Description = "Small, Basic Widget", Price = 50, Model = "Basic", Size = "Small" },

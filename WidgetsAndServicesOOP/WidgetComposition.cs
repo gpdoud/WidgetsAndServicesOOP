@@ -12,6 +12,18 @@ namespace CSharp.OOP.Composition {
             get { return Product.Id; }
             set { Product.Id = value; }
         }
+        public string Description {
+            get { return Product.Description; }
+            set { Product.Description = value; }
+        }
+        public string Unit {
+            get { return Product.Unit; }
+            set { Product.Unit = value; }
+        }
+        public double Price {
+            get { return Product.Price; }
+            set { Product.Price = value; }
+        }
 
         public string Size { get; set; } = "Medium";
         public string Model { get; set; } = "Basic";
